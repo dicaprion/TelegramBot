@@ -7,13 +7,12 @@ public class AnswerGenerator implements AnswerGeneratorInterface {
 
     private ResourceInterface resource = new Resource();
 
-    public void SetResource(ResourceInterface resource){
+    AnswerGenerator(ResourceInterface resource){
         this.resource = resource;
     }
 
     @Override
     public String GetAnswer(String request){
-        resource.Fill();
         for (Map.Entry<String, ArrayList<String>> entry : resource.Variants.entrySet()){
             if (entry.getValue().contains(request.toLowerCase())){
                 return entry.getKey();

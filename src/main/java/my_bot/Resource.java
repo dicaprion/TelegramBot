@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Resource implements ResourceInterface {
 
-    public void Fill(){
+    Resource(){
         ArrayList<String> helpVariants = new ArrayList<String>();
         helpVariants.addAll(Arrays.asList("help", "start", "help me", "let's start", "hi", "hello", "let's go", "go", "/start", "/help", "/go"));
         String helpString = "Hi, What do you want? I am busy, but I think, I can find one minute for you\n" +

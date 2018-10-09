@@ -39,7 +39,7 @@ public class SimpleFileExplorer implements FileExplorerInterface {
                 if (user == null)
                     continue;
                 result.put(user.GetUserID(), user);
-                System.out.println(strLine);
+                //System.out.println(strLine);
             }
         } catch (IOException e){
             e.printStackTrace();

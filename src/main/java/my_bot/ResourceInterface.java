@@ -5,5 +5,5 @@ import java.util.HashMap;
 
 public interface ResourceInterface {
     HashMap<String, ArrayList<String>> Variants = new HashMap<String, ArrayList<String>>();
-    void Fill();
+    //void Fill();
 }

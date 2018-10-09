@@ -37,7 +37,7 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
         sendMessage.enableMarkdown(true);
         if (!base.isContains(message.getChatId().intValue())) {
             base.AddNewUser(message.getChatId().intValue());
-            text = text + "\n But first tell me how can i name you?\n ";
+            //text = text + "\n But first tell me how can i name you?\n ";
         }
         System.out.print(message.getChatId().intValue() + "\n");
         sendMessage.setChatId(message.getChatId().toString());
