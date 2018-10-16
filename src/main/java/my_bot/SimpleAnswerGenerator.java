@@ -3,11 +3,11 @@ package my_bot;
 import java.util.ArrayList;
 import java.util.Map;
 
-public class AnswerGenerator implements AnswerGeneratorInterface {
+public class SimpleAnswerGenerator implements AnswerGenerator {
 
-    private ResourceInterface resource = new Resource();
+    private Resource resource = new SimpleResource();
 
-    AnswerGenerator(ResourceInterface resource){
+    SimpleAnswerGenerator(Resource resource){
         this.resource = resource;
     }
 

@@ -2,7 +2,7 @@ package my_bot;
 
 import java.util.HashMap;
 
-public interface FileExplorerInterface {
+public interface FileExplorer {
     HashMap<Integer, User> GetHashListOfUsers();
     void WriteUserInFile(int userID);
 }

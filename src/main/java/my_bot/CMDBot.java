@@ -3,10 +3,11 @@ import java.util.Scanner;
 
 public class CMDBot implements Runnable {
 
-    private AnswerGeneratorInterface solver;
+    private AnswerGenerator solver;
 
-    CMDBot(AnswerGeneratorInterface generator){
+    CMDBot(AnswerGenerator generator){
         this.solver = generator;
+        System.out.print(solver.GetAnswer("start"));
     }
 
     public void run(){

@@ -1,6 +1,5 @@
 package my_bot;
 
-public interface AnswerGeneratorInterface {
-    //void SetResource(ResourceInterface resource);
+public interface AnswerGenerator {
     String GetAnswer(String request);
 }

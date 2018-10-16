@@ -9,7 +9,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class TGBot extends TelegramLongPollingBot implements Runnable {
 
-    private AnswerGeneratorInterface solver;
+    private AnswerGenerator solver;
     private UsersBaseInterface base = new UsersBase();
 
     public void run() {
@@ -21,7 +21,7 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
         }
     }
 
-    TGBot(AnswerGeneratorInterface generator) {
+    TGBot(AnswerGenerator generator) {
         this.solver = generator;
     }
 

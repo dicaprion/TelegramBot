@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class UsersBase implements UsersBaseInterface {
 
-    private FileExplorerInterface explorer = new SimpleFileExplorer();
+    private FileExplorer explorer = new SimpleFileExplorer();
     private HashMap<Integer, User> allUsers = new HashMap<Integer, User>();
 
     public void AddNewUser(int userID){
