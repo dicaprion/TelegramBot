@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6ddeef-2ae1-427d-8ec1-99cc6d8a5ed6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/my_bot/AnswerGeneratorInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/my_bot/FileExplorerInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/my_bot/ResourceInterface.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/my_bot/ResourceTest.class" afterPath="$PROJECT_DIR$/target/classes/my_bot/ResourceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/AnswerGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/AnswerGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/AnswerGeneratorTest.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/AnswerGeneratorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/CMDBot.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/CMDBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/EntryPoint.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/EntryPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/FileExplorer.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/FileExplorer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/Resource.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/Resource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/ResourceTest.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/ResourceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/SimpleAnswerGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/SimpleAnswerGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/SimpleFileExplorer.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/SimpleFileExplorer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/SimpleResource.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/SimpleResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/TGBot.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/TGBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/UsersBase.java" afterPath="$PROJECT_DIR$/src/main/java/my_bot/UsersBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/my_bot/readme" afterPath="$PROJECT_DIR$/src/main/java/my_bot/readme" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -116,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/readme">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -299,6 +282,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TelegramBot" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -544,7 +528,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -937,7 +921,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/readme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
