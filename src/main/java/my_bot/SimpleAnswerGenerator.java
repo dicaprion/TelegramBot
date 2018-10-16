@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class SimpleAnswerGenerator implements AnswerGenerator {
 
-    private Resource resource = new SimpleResource();
+    private Resource resource;
 
     SimpleAnswerGenerator(Resource resource){
         this.resource = resource;

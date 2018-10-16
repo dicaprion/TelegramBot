@@ -6,8 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-//hello world
-//hello world
+
 class ResourceTest {
 
     @Test
