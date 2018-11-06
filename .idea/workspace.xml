@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="636fad94-6695-44f0-8cc3-a368b651af18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -13,26 +12,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/TelegramBot/AnswerGeneratorTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TelegramBot/ResourceTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TelegramBot/SimpleResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TelegramBot/SimpleResource.class" afterDir="false" />
-=======
-    <list default="true" id="6f6ddeef-2ae1-427d-8ec1-99cc6d8a5ed6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/my_bot/UserFileExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my_bot/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_bot/EntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my_bot/FileExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_bot/FileExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my_bot/HTMLLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_bot/HTMLLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my_bot/JokeCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_bot/JokeCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my_bot/SimpleFileExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_bot/SimpleFileExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my_bot/TGBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_bot/TGBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my_bot/UsersBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_bot/UsersBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my_bot/EntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my_bot/EntryPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my_bot/FileExplorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my_bot/FileExplorer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my_bot/HTMLLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my_bot/HTMLLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my_bot/JokeCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my_bot/JokeCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my_bot/SimpleFileExplorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my_bot/SimpleFileExplorer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my_bot/TGBot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/my_bot/UsersBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my_bot/UsersBase.class" afterDir="false" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,29 +25,22 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TelegramBot$HTMLLoaderTest.ic" NAME="HTMLLoaderTest Coverage Results" MODIFIED="1541412445105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TelegramBot.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/TelegramBot$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1541414206405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TelegramBot$HTMLLoaderTest_LoadException.ic" NAME="HTMLLoaderTest.LoadException Coverage Results" MODIFIED="1541411911910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TelegramBot$HTMLLoaderTest.ic" NAME="HTMLLoaderTest Coverage Results" MODIFIED="1541412445105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TelegramBot.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TelegramBot$SimpleJokeParserTest.ic" NAME="SimpleJokeParserTest Coverage Results" MODIFIED="1541414240178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TelegramBot.*</FILTER>
     </SUITE>
-<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/TelegramBot$HTMLLoaderTest_LoadException.ic" NAME="HTMLLoaderTest.LoadException Coverage Results" MODIFIED="1541411911910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TelegramBot.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/TelegramBot$AnswerGeneratorTest.ic" NAME="AnswerGeneratorTest Coverage Results" MODIFIED="1541412229977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TelegramBot.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="233" />
-=======
-    <SUITE FILE_PATH="coverage/tg_001$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1539066937803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tg_001$AnswerGeneratorTest.coverage" NAME="AnswerGeneratorTest Coverage Results" MODIFIED="1539066945969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>my_bot.*</FILTER>
-    </SUITE>
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1110366907">
@@ -183,69 +155,14 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
-    <session id="434384034">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="base" value="1" />
-          <entry key="java" value="15" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="15" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="840" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="840" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TelegramBot/SimpleJokeCollection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/readme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/FileExplorer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,7 +171,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/TelegramBot/SimpleJokeParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-159">
@@ -262,51 +178,11 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/TGBot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/HTMLLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/JokeCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anekdots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/TelegramBot/SimpleJokeParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -314,12 +190,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/EntryPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
             </state>
           </provider>
         </entry>
@@ -332,7 +202,6 @@
         <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -342,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/TelegramBot/Resource.java" />
         <option value="$PROJECT_DIR$/src/main/java/TelegramBot/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/TelegramBot/AnswerGenerator.java" />
@@ -367,29 +235,6 @@
         <option value="$PROJECT_DIR$/src/main/java/TelegramBot/SimpleResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/TelegramBot/AnswerGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TelegramBot/SimpleJokeParserTest.java" />
-=======
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/base" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/AnswerGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/ResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/SimpleAnswerGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/AnswerGeneratorInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/AnswerGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/FileExplorerInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/SimpleResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/ResourceInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/Resource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/CMDBot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/readme" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/TGBot.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/HTMLLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/UserFileExplorer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/SimpleFileExplorer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/UsersBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/FileExplorer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/EntryPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my_bot/JokeCollection.java" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       </list>
     </option>
   </component>
@@ -401,16 +246,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="975" />
     <option name="height" value="1088" />
-=======
-    <option name="x" value="528" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -418,22 +257,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
-=======
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TelegramBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="TelegramBot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelegramBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelegramBot" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TelegramBot" type="b2602c69:ProjectViewProjectNode" />
@@ -486,7 +317,6 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,21 +328,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="coverage" />
-=======
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540735223473" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -540,103 +355,44 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="JUnit.SimpleJokeParserTest">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="TelegramBot.EntryPoint" />
       <module name="TelegramBot" />
-=======
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HEIGHT" value="0" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="WIDTH" value="0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="my_bot.EntryPoint" />
-      <module name="tg" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
     <configuration name="AnswerGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelegramBot" />
-=======
-    <configuration name="AnswerGeneratorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="tg_001" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TelegramBot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="TelegramBot" />
       <option name="MAIN_CLASS_NAME" value="TelegramBot.AnswerGeneratorTest" />
-=======
-      <option name="PACKAGE_NAME" value="my_bot" />
-      <option name="MAIN_CLASS_NAME" value="my_bot.AnswerGeneratorTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="HTMLLoaderTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="TelegramBot" />
-=======
-    <configuration name="ResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tg_001" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TelegramBot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="TelegramBot" />
       <option name="MAIN_CLASS_NAME" value="TelegramBot.HTMLLoaderTest" />
-=======
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="PACKAGE_NAME" value="my_bot" />
-      <option name="MAIN_CLASS_NAME" value="my_bot.ResourceTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
     <configuration name="HTMLLoaderTest.LoadException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelegramBot" />
       <extension name="coverage">
@@ -649,18 +405,10 @@
       <option name="MAIN_CLASS_NAME" value="TelegramBot.HTMLLoaderTest" />
       <option name="METHOD_NAME" value="LoadException" />
       <option name="TEST_OBJECT" value="method" />
-=======
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="SimpleJokeParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelegramBot" />
       <extension name="coverage">
@@ -671,19 +419,11 @@
       </extension>
       <option name="PACKAGE_NAME" value="TelegramBot" />
       <option name="MAIN_CLASS_NAME" value="TelegramBot.SimpleJokeParserTest" />
-=======
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-<<<<<<< HEAD
       <item itemvalue="JUnit.HTMLLoaderTest" />
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="JUnit.AnswerGeneratorTest" />
@@ -695,15 +435,6 @@
         <item itemvalue="JUnit.SimpleJokeParserTest" />
         <item itemvalue="JUnit.AnswerGeneratorTest" />
         <item itemvalue="JUnit.HTMLLoaderTest.LoadException" />
-=======
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.AnswerGeneratorTest" />
-      <item itemvalue="JUnit.ResourceTest" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ResourceTest" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       </list>
     </recent_temporary>
   </component>
@@ -721,32 +452,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-<<<<<<< HEAD
     <history-entry file="AnswerGeneratorTest - 2018.11.05 at 15h 03m 56s.xml">
       <configuration name="AnswerGeneratorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnswerGeneratorTest - 2018.11.05 at 15h 04m 59s.xml">
-=======
-    <history-entry file="AnswerGeneratorTest - 2018.10.09 at 11h 10m 23s.xml">
-      <configuration name="AnswerGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerGeneratorTest - 2018.10.09 at 11h 29m 11s.xml">
-      <configuration name="AnswerGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerGeneratorTest - 2018.10.09 at 11h 34m 51s.xml">
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
       <configuration name="AnswerGeneratorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnswerGeneratorTest - 2018.11.05 at 15h 06m 12s.xml">
       <configuration name="AnswerGeneratorTest" configurationId="JUnit" />
     </history-entry>
-<<<<<<< HEAD
     <history-entry file="HTMLLoaderTest - 2018.11.05 at 15h 07m 30s.xml">
       <configuration name="HTMLLoaderTest" configurationId="JUnit" />
-=======
-    <history-entry file="ResourceTest - 2018.10.09 at 11h 39m 10s.xml">
-      <configuration name="ResourceTest" configurationId="JUnit" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
     </history-entry>
     <history-entry file="HTMLLoaderTest - 2018.11.05 at 15h 08m 23s.xml">
       <configuration name="HTMLLoaderTest" configurationId="JUnit" />
@@ -760,21 +476,15 @@
     <history-entry file="SimpleJokeParserTest - 2018.11.05 at 15h 33m 14s.xml">
       <configuration name="SimpleJokeParserTest" configurationId="JUnit" />
     </history-entry>
-<<<<<<< HEAD
     <history-entry file="SimpleJokeParserTest - 2018.11.05 at 15h 36m 21s.xml">
       <configuration name="SimpleJokeParserTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SimpleJokeParserTest - 2018.11.05 at 15h 37m 26s.xml">
       <configuration name="SimpleJokeParserTest" configurationId="JUnit" />
-=======
-    <history-entry file="AnswerGeneratorTest - 2018.10.28 at 12h 37m 09s.xml">
-      <configuration name="AnswerGeneratorTest" configurationId="JUnit" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-<<<<<<< HEAD
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -804,43 +514,11 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3295302" />
-=======
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29078013" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39858156" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.18229167" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="joke maby" />
     <option name="LAST_COMMIT_MESSAGE" value="joke maby" />
@@ -862,53 +540,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TelegramBot/readme">
       <provider selected="true" editor-type-id="text-editor" />
-=======
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/CMDBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/SimpleResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TelegramBot/SimpleFileExplorer.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="357">
           <caret line="32" column="49" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="49" />
-=======
-        <state relative-caret-position="102">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/TelegramBot/base">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1008,76 +650,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/AnswerGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/AnswerGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/SimpleAnswerGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/base">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/HTMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/TelegramBot/UsersBaseInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/TGBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TelegramBot/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="85">
           <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
         </state>
@@ -1165,69 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-=======
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/UsersBaseInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/UserFileExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/SimpleFileExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/FileExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anekdots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/EntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my_bot/JokeCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1286,11 +810,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-<<<<<<< HEAD
           <last-edited>TelegramBot</last-edited>
-=======
-          <last-edited>tg</last-edited>
->>>>>>> a936c1e608902090c3fbb46a280e1c5b4ea628c2
           <splitter-proportions>
             <option name="proportions">
               <list>
