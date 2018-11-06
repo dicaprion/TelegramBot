@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.HashMap;
 
-public class SimpleFileExplorer implements FileExplorer {
+public class SimpleFileExplorer implements UserFileExplorer {
 
     private String fileName;
 

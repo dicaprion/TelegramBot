@@ -10,5 +10,7 @@ public class EntryPoint {
         CMDBot cmdBot = new CMDBot(generator);
         JThread tgThread = new JThread("Telegram bot", telegramBot);
         JThread cmdThread = new JThread("Cmd bot", cmdBot);
+//        new JokeCollection().WriteInformationInFile();
+//        System.out.print(new JokeCollection().GetInformationFromFile());
     }
 }

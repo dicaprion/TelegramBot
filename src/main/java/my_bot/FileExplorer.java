@@ -1,8 +1,9 @@
 package my_bot;
 
-import java.util.HashMap;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
 
 public interface FileExplorer {
-    HashMap<Integer, User> GetHashListOfUsers();
-    void WriteUserInFile(int userID);
+    ArrayList<String> GetInformationFromFile() throws FileNotFoundException;
+    void WriteInformationInFile();
 }
