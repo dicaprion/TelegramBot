@@ -10,15 +10,15 @@ public class SimpleJokeParser {
 
     ArrayList<String> list = new ArrayList<>();
 
-    public org.jsoup.select.Elements htmlParser() {
-        String stringHTML = new HTMLLoader().GetHTMLString("https://www.anekdot.ru/random/anekdot/");
+    public org.jsoup.select.Elements htmlParser(String url) {
+        String stringHTML = new HTMLLoader().GetHTMLString(url);
         Document html = Jsoup.parse(stringHTML);
         org.jsoup.select.Elements htmlByClass = html.getElementsByClass("text");
         return htmlByClass;
     }
 
-    SimpleJokeParser() {
-        org.jsoup.select.Elements info = htmlParser();
+    SimpleJokeParser(String url) {
+        org.jsoup.select.Elements info = htmlParser(url);
         while (info.size() != 0) {
             String line = info.first().toString();
             String dirtyLine = line.replace("<div class=\"text\">", "");

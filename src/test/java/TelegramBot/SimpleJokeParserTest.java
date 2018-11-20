@@ -9,7 +9,7 @@ class SimpleJokeParserTest {
 
     @Test
     void parser() {
-        SimpleJokeParser jokeParser = new SimpleJokeParser();
+        SimpleJokeParser jokeParser = new SimpleJokeParser("https://www.anekdot.ru/random/anekdot/");
         Assert.assertTrue(jokeParser.list.size() != 0);
     }
 }
