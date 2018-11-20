@@ -40,7 +40,7 @@ public class SimpleJokeFileExplorer implements FileExplorer<String> {
     }
 
     @Override
-    public void WriteInformationInFile(String info) throws FileNotFoundException {
+    public synchronized void WriteInformationInFile(String info) throws FileNotFoundException {
         try {
             FileWriter writer = new FileWriter(fileName, true);
             BufferedWriter bufferWriter = new BufferedWriter(writer);
