@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SimpleJokeParserTest {
-    
+
     @Test
     void parser() {
         SimpleJokeParser jokeParser = new SimpleJokeParser();
