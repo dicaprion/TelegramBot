@@ -10,7 +10,7 @@ public class UsersBase implements UsersBaseInterface {
     private SimpleFileExplorer explorer = new SimpleFileExplorer();
     private Map<Integer, User> allUsers = new HashMap<Integer, User>();
 
-    public void AddNewUser(int userID) throws FileNotFoundException {
+    public synchronized void AddNewUser(int userID) throws FileNotFoundException {
         if (allUsers.keySet().contains(userID))
             return;
         User newUser = new User(userID);

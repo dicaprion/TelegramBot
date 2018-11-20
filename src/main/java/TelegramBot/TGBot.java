@@ -12,18 +12,24 @@ import java.io.FileNotFoundException;
 public class TGBot extends TelegramLongPollingBot implements Runnable {
 
     private AnswerGenerator solver;
-    private UsersBaseInterface base = new UsersBase();
+    private UsersBaseInterface base;
 
     public void run() {
         TelegramBotsApi botApi = new TelegramBotsApi();
         try {
-            botApi.registerBot(new TGBot(this.solver));
+            botApi.registerBot(new TGBot(this.solver, this.base));
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
     }
 
-    TGBot(AnswerGenerator generator) {
+    TGBot(AnswerGenerator generator, String fileName) {
+        base = new UsersBase(fileName);
+        this.solver = generator;
+    }
+
+    TGBot(AnswerGenerator generator, UsersBaseInterface uBase) {
+        base = uBase;
         this.solver = generator;
     }
 

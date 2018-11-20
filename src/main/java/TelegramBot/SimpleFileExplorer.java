@@ -22,11 +22,13 @@ public class SimpleFileExplorer implements FileExplorer<User> {
     SimpleFileExplorer(){
         URL classesRootDir = getClass().getProtectionDomain().getCodeSource().getLocation();
         String fullPath = classesRootDir.getPath();
-        fileName = fullPath.substring(0, fullPath.length() - 15) + "src\\main\\java\\TelegramBot\\base";
+        fileName = fullPath.substring(0, fullPath.length() - 15) + "src\\main\\java\\TelegramBot\\baseTG";
     }
 
     SimpleFileExplorer(String name){
-        fileName = name;
+        URL classesRootDir = getClass().getProtectionDomain().getCodeSource().getLocation();
+        String fullPath = classesRootDir.getPath();
+        fileName = fullPath.substring(0, fullPath.length() - 15) + "src\\main\\java\\TelegramBot\\" + name;
     }
 
     @Override

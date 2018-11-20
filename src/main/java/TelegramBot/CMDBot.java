@@ -3,11 +3,12 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class CMDBot implements Runnable {
-    private UsersBaseInterface base = new UsersBase();
+    private UsersBaseInterface base;
     private AnswerGenerator solver;
 
-    CMDBot(AnswerGenerator generator) throws FileNotFoundException {
+    CMDBot(AnswerGenerator generator, String baseFileName) throws FileNotFoundException {
         this.solver = generator;
+        base = new UsersBase(baseFileName);
         base.AddNewUser(1);
         System.out.print(solver.GetAnswer("start", 1, base));
     }
