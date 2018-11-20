@@ -6,7 +6,7 @@ import org.jsoup.nodes.Document;
 import java.util.ArrayList;
 
 
-public class SimpleJokeParser implements JokeParser {
+public class SimpleJokeParser {
 
     ArrayList<String> list = new ArrayList<>();
 
@@ -27,14 +27,5 @@ public class SimpleJokeParser implements JokeParser {
             list.add(resultJoke);
             info.remove(0);
         }
-    }
-
-    @Override
-    public String GetNextJoke() {
-        if (list.size() == 0)
-            return null;
-        String result = list.get(0);
-        list.remove(0);
-        return result;
     }
 }

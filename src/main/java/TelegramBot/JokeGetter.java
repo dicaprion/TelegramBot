@@ -1,5 +1,5 @@
 package TelegramBot;
 
-public interface JokeParser {
+public interface JokeGetter {
     String GetNextJoke();
 }

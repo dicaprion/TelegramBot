@@ -8,7 +8,7 @@ public class SimpleJokeCollection implements FileExplorer<String> {
     private File storage;
     private ArrayList<String> listJokes;
     private String fileName;
-    private JokeParser parser;
+    private JokeGetter getter;
 
     SimpleJokeCollection() {
         URL classesRootDir = getClass().getProtectionDomain().getCodeSource().getLocation();
@@ -16,12 +16,12 @@ public class SimpleJokeCollection implements FileExplorer<String> {
         fileName = fullPath.substring(0, fullPath.length() - 15) + "src\\main\\java\\TelegramBot\\jokeCollection";
         storage = new File(fileName);
         listJokes = ParseFile();
-        parser = new SimpleJokeParser();
+        getter = new SimpleJokeGetter();
     }
 
     public String GetJokeByIndex(int index) throws FileNotFoundException {
         if (index >= listJokes.size()) {
-            String newAnek = parser.GetNextJoke();
+            String newAnek = getter.GetNextJoke();
             if (newAnek == null)
                 return "jokes is over";
             listJokes.add(newAnek);

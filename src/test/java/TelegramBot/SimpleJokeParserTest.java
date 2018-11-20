@@ -14,7 +14,7 @@ class SimpleJokeParserTest {
 
     @Test
     void getJoke(){
-        SimpleJokeParser jokeParser = new SimpleJokeParser();
-        Assert.assertEquals(jokeParser.list.get(0), jokeParser.GetNextJoke());
+        SimpleJokeGetter jokeGetter = new SimpleJokeGetter();
+        Assert.assertEquals(jokeGetter.list.get(0), jokeGetter.GetNextJoke());
     }
 }
