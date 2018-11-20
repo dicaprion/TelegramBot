@@ -41,7 +41,7 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
-            System.out.print(message.getChatId().intValue() + "\n");
+            //System.out.print(message.getChatId().intValue() + "\n");
             sendMsg(message, solver.GetAnswer(message.getText(), message.getChatId().intValue(), base));
         }
     }
