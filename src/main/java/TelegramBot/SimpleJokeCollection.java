@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class SimpleJokeCollection {
     private File storage;
-    private ArrayList<String> listJokes;
+    ArrayList<String> listJokes;
     private String fileName;
     private JokeGetter getter;
     private SimpleJokeFileExplorer jokeBase;
