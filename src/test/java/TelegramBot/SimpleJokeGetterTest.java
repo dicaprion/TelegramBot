@@ -9,7 +9,7 @@ class SimpleJokeGetterTest {
 
     @Test
     void getJoke(){
-        SimpleJokeGetter jokeGetter = new SimpleJokeGetter();
+        SimpleJokeGetter jokeGetter = new SimpleJokeGetter("https://www.anekdot.ru/random/anekdot/");
         Assert.assertEquals(jokeGetter.list.get(0), jokeGetter.GetNextJoke());
     }
 }

@@ -11,7 +11,7 @@ public class SimpleJokeParser {
     ArrayList<String> list = new ArrayList<>();
 
     public org.jsoup.select.Elements htmlParser(String url) {
-        String stringHTML = new HTMLLoader().GetHTMLString(url);
+        String stringHTML = new HTMLLoader(url).GetHTMLString();
         Document html = Jsoup.parse(stringHTML);
         org.jsoup.select.Elements htmlByClass = html.getElementsByClass("text");
         return htmlByClass;

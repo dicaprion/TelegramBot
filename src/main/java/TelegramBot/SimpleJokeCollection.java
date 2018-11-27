@@ -11,10 +11,10 @@ public class SimpleJokeCollection {
     private JokeGetter getter;
     private SimpleJokeFileExplorer jokeBase;
 
-    SimpleJokeCollection() {
-        jokeBase = new SimpleJokeFileExplorer("src\\main\\java\\TelegramBot\\jokeCollection");
+    SimpleJokeCollection(String jokeUrl, String filePath) {
+        jokeBase = new SimpleJokeFileExplorer(filePath);
         listJokes = jokeBase.ParseFile();
-        getter = new SimpleJokeGetter();
+        getter = new SimpleJokeGetter(jokeUrl);
     }
 
     public String GetJokeByIndex(int index) throws FileNotFoundException {

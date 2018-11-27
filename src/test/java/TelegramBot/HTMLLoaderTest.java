@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class HTMLLoaderTest {
     @Test
     void LoadException(){
-        HTMLLoader loader = new HTMLLoader();
-        String result = loader.GetHTMLString("htts://ru.wikipedia.org");
+        HTMLLoader loader = new HTMLLoader("htts://ru.wikipedia.org");
+        String result = loader.GetHTMLString();
         Assert.assertEquals(result, "");
     }
 }

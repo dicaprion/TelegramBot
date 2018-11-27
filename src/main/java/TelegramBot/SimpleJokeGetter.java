@@ -2,11 +2,18 @@ package TelegramBot;
 
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
 
 public class SimpleJokeGetter implements JokeGetter{
+    ArrayList<String> list;
+    private String url;
 
-    ArrayList<String> list = new SimpleJokeParser("https://www.anekdot.ru/random/anekdot/").list;
+    SimpleJokeGetter(String newUrl){
+        url = newUrl;
+        list = new SimpleJokeParser(url).list;
+        //"https://www.anekdot.ru/random/anekdot/"
+    }
 
     @Override
     public String GetNextJoke() {

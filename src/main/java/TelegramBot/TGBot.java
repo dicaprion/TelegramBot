@@ -61,10 +61,13 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
         replyKeyboardMarkup.setResizeKeyboard(true);
         replyKeyboardMarkup.setOneTimeKeyboard(false);
         ArrayList<KeyboardRow> keyboard = new ArrayList<KeyboardRow>();
-        KeyboardRow keyboardFirstRow = new KeyboardRow();
-        keyboardFirstRow.add("date");
-        keyboardFirstRow.add("joke");
-        keyboard.add(keyboardFirstRow);
+        KeyboardRow keyboardFirstLine= new KeyboardRow();
+        keyboardFirstLine.add("date");
+        keyboardFirstLine.add("joke");
+        KeyboardRow keyboardSecondLine = new KeyboardRow();
+        keyboardSecondLine.add("help");
+        keyboard.add(keyboardFirstLine);
+        keyboard.add(keyboardSecondLine);
         replyKeyboardMarkup.setKeyboard(keyboard);
 
         try {

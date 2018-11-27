@@ -8,8 +8,13 @@ import java.net.URL;
 
 
 public class HTMLLoader {
+    private String link;
 
-    public String GetHTMLString(String link){
+    HTMLLoader(String newLink){
+        this.link = newLink;
+    }
+
+    public String GetHTMLString(){
         BufferedReader br = null;
         try {
             URL url = new URL(link);

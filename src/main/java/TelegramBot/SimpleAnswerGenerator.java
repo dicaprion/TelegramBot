@@ -12,9 +12,9 @@ public class SimpleAnswerGenerator implements AnswerGenerator {
     private Resource resource;
     private SimpleJokeCollection jokeCollection;
 
-    SimpleAnswerGenerator(Resource resource){
+    SimpleAnswerGenerator(Resource resource, String jokeUrl, String filePathJoke){
         this.resource = resource;
-        jokeCollection = new SimpleJokeCollection();
+        jokeCollection = new SimpleJokeCollection(jokeUrl, filePathJoke);
     }
 
     @Override
