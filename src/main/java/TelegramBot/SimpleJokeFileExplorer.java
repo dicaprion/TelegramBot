@@ -51,4 +51,11 @@ public class SimpleJokeFileExplorer implements FileExplorer<String> {
             System.out.println(e);
         }
     }
+
+    public void CleanFile() throws FileNotFoundException {
+        File file = new File(fileName);
+        PrintWriter writer = new PrintWriter(file);
+        writer.print("");
+        writer.close();
+    }
 }
