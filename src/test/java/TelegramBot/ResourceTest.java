@@ -12,14 +12,14 @@ class ResourceTest {
     @Test
     void isFullSize(){
         SimpleResource resource = new SimpleResource();
-        Assert.assertEquals(resource.Variants.size(), 2);
+        Assert.assertEquals(resource.Variants.size(), 1);
     }
 
     @Test
     void isContainDateAnswer(){
         SimpleResource resource = new SimpleResource();
         Assert.assertEquals(resource.Variants.containsKey(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + "\n"),
-                true);
+                false);
     }
 
     @Test
