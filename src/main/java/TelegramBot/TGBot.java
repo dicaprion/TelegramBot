@@ -11,6 +11,8 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 
 public class TGBot extends TelegramLongPollingBot implements Runnable {
 
@@ -36,7 +38,29 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
         this.solver = generator;
     }
 
+    private TelegramBot.Message rndMess(){
+        try {
+            TelegramBot.Message ms = solver.GetMesQueue().GetFirstInQueue();
+            Calendar sendTime = Calendar.getInstance();
+            sendTime.setTime(new Date());
+            System.out.println(ms.sendTime.compareTo(sendTime));
+            System.out.println(ms.sendTime.getTime());
+            System.out.println(sendTime.getTime());
+            if (ms.sendTime.compareTo(sendTime) <= 0){
+                return solver.GetMesQueue().GetMessage();
+            }
+            return null;
+        } catch (Exception e){
+            return null;
+        }
+    }
+
     public void onUpdateReceived(Update update){
+        TelegramBot.Message ms = rndMess();
+        if (ms != null){
+            solver.GetMesQueue().
+            sendMsg(ms.chatId, "message from unknown user \n" + ms.text);
+        }
         Message message = update.getMessage();
         if (message != null && message.hasText()){
             try {
@@ -44,15 +68,14 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
-            //System.out.print(message.getChatId().intValue() + "\n");
-            sendMsg(message, solver.GetAnswer(message.getText(), message.getChatId().intValue(), base));
+            sendMsg(message.getChatId().intValue(), solver.GetAnswer(message.getText(), message.getChatId().intValue(), base));
         }
     }
 
-    private void sendMsg(Message message, String text) {
+    private void sendMsg(int chatId, String text) {
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
-        sendMessage.setChatId(message.getChatId().toString());
+        sendMessage.setChatId(String.valueOf(chatId));
         sendMessage.setText(text);
 
         ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();

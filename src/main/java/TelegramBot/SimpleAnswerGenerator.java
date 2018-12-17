@@ -11,10 +11,16 @@ public class SimpleAnswerGenerator implements AnswerGenerator {
 
     private Resource resource;
     private SimpleJokeCollection jokeCollection;
+    private RandomMessage randomMessageQueue;
+
+    public RandomMessage GetMesQueue(){
+        return randomMessageQueue;
+    }
 
     SimpleAnswerGenerator(Resource resource, String jokeUrl, String filePathJoke){
         this.resource = resource;
         jokeCollection = new SimpleJokeCollection(jokeUrl, filePathJoke);
+        randomMessageQueue = new SimpleMessageQueue();
     }
 
     @Override
@@ -23,6 +29,18 @@ public class SimpleAnswerGenerator implements AnswerGenerator {
         dateVariants.addAll(Arrays.asList("/date", "/time", "date", "time", "what time is it?"));
         if (dateVariants.contains(request))
             return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + "\n";
+        String[] lines = request.split("\n");
+        if (lines[0].equals("/send random")){
+            Message message = new Message();
+            message = message.CreateMessage(request);
+            if (message != null) {
+                randomMessageQueue.AddMessage(message);
+                System.out.println(message.toString());
+                return "Success";
+            } else {
+                return "Fail";
+            }
+        }
         for (Map.Entry<String, ArrayList<String>> entry : resource.Variants.entrySet()) {
             if (entry.getValue().contains(request.toLowerCase())) {
                 return entry.getKey();
