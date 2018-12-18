@@ -38,25 +38,8 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
         this.solver = generator;
     }
 
-    private TelegramBot.Message rndMess(){
-        try {
-            TelegramBot.Message ms = solver.GetMesQueue().GetFirstInQueue();
-            Calendar sendTime = Calendar.getInstance();
-            sendTime.setTime(new Date());
-            System.out.println(ms.getSendTime().compareTo(sendTime));
-            System.out.println(ms.getSendTime().getTime());
-            System.out.println(sendTime.getTime());
-            if (ms.getSendTime().compareTo(sendTime) <= 0){
-                return solver.GetMesQueue().GetMessage();
-            }
-            return null;
-        } catch (Exception e){
-            return null;
-        }
-    }
-
     public void onUpdateReceived(Update update){
-        TelegramBot.Message ms = rndMess();
+        TelegramBot.Message ms = solver.GetMesQueue().GetFirstInQueue();
         if (ms != null){
             if (ms.getChatId() == 0 || ms.getChatId() == -1) {
                 ms.setChatId(base.GetRandomUser().GetUserID());

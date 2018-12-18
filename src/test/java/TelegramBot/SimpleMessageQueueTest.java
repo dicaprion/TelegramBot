@@ -15,9 +15,4 @@ class SimpleMessageQueueTest {
         Assert.assertEquals(queue.GetFirstInQueue(), null);
     }
 
-    @Test
-    void getMessage() {
-        SimpleMessageQueue queue = new SimpleMessageQueue();
-        Assert.assertEquals(queue.GetMessage(), null);
-    }
 }

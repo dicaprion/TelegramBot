@@ -17,10 +17,10 @@ public class SimpleAnswerGenerator implements AnswerGenerator {
         return randomMessageQueue;
     }
 
-    SimpleAnswerGenerator(Resource resource, String jokeUrl, String filePathJoke){
+    SimpleAnswerGenerator(Resource resource, SimpleJokeCollection smpJokeCol, RandomMessage rndQueueMessage){
         this.resource = resource;
-        jokeCollection = new SimpleJokeCollection(jokeUrl, filePathJoke);
-        randomMessageQueue = new SimpleMessageQueue();
+        jokeCollection = smpJokeCol;
+        randomMessageQueue = rndQueueMessage;
     }
 
     @Override
