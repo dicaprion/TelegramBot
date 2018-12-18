@@ -35,7 +35,7 @@ public class Message {
                 } else
                     chatId = Integer.parseInt(line);
             }
-            if (flag){
+            if (flag1){
                 sendTime = Calendar.getInstance();
                 sendTime.setTime(new Date());
                 chatId = -1;

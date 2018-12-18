@@ -7,5 +7,6 @@ public interface UsersBaseInterface {
     Boolean isContains(int userID);
     void IsNewUser(int message) throws FileNotFoundException;
     User GetUserById(int userId);
+    User GetRandomUser();
 }
 

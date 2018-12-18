@@ -18,6 +18,13 @@ public class UsersBase implements UsersBaseInterface {
         explorer.WriteInformationInFile(newUser);
     }
 
+    public User GetRandomUser(){
+        Integer[] keys = allUsers.keySet().toArray(new Integer[0]);
+        int index = (int) (Math.random() * keys.length);
+        //System.out.println("Random user " + allUsers.get(keys[index]));
+        return allUsers.get(keys[index]);
+    }
+
     public Boolean isContains(int userID){
         if (allUsers.keySet().contains(userID))
             return true;
