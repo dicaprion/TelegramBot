@@ -5,8 +5,6 @@ import java.util.Queue;
 import java.util.ArrayDeque;
 
 public class SimpleMessageQueue implements RandomMessage {
-    ArrayDeque<Message> queue = new ArrayDeque<Message>();
-
 
     @Override
     public Message GetFirstInQueue() {
@@ -18,7 +16,6 @@ public class SimpleMessageQueue implements RandomMessage {
 
     @Override
     public Message GetMessage() {
-        System.out.println(queue.size());
         return queue.poll();
     }
 

@@ -21,8 +21,7 @@ public class Message {
                     first = false;
                     continue;
                 }
-                System.out.println(line);
-                if (line.equals("@#$")) {
+                if (line.equals("----")) {
                     flag = false;
                     continue;
                 }
@@ -35,6 +34,11 @@ public class Message {
                     flag1 = false;
                 } else
                     chatId = Integer.parseInt(line);
+            }
+            if (flag){
+                sendTime = Calendar.getInstance();
+                sendTime.setTime(new Date());
+                chatId = -1;
             }
         } catch (Exception e) {
             e.printStackTrace();

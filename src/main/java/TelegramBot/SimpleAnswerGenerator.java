@@ -30,7 +30,7 @@ public class SimpleAnswerGenerator implements AnswerGenerator {
         if (dateVariants.contains(request))
             return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + "\n";
         String[] lines = request.split("\n");
-        if (lines[0].equals("/send random")){
+        if (lines[0].equals("/send_message")){
             Message message = new Message();
             message = message.CreateMessage(request);
             if (message != null) {
