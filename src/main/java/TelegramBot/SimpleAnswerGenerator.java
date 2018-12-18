@@ -29,13 +29,11 @@ public class SimpleAnswerGenerator implements AnswerGenerator {
         dateVariants.addAll(Arrays.asList("/date", "/time", "date", "time", "what time is it?"));
         if (dateVariants.contains(request))
             return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + "\n";
-        String[] lines = request.split("\n");
-        if (lines[0].equals("/send_message")){
-            Message message = new Message();
+        if (request.split("\n")[0].equals("/send_message")){
+            Message message = new SimpleMessage();
             message = message.CreateMessage(request);
             if (message != null) {
                 randomMessageQueue.AddMessage(message);
-                System.out.println(message.toString());
                 return "Success";
             } else {
                 return "Fail";
@@ -43,6 +41,7 @@ public class SimpleAnswerGenerator implements AnswerGenerator {
         }
         for (Map.Entry<String, ArrayList<String>> entry : resource.Variants.entrySet()) {
             if (entry.getValue().contains(request.toLowerCase())) {
+                //System.out.println( entry.getKey());
                 return entry.getKey();
             }
         }

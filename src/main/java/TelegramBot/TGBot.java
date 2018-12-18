@@ -43,10 +43,10 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
             TelegramBot.Message ms = solver.GetMesQueue().GetFirstInQueue();
             Calendar sendTime = Calendar.getInstance();
             sendTime.setTime(new Date());
-            System.out.println(ms.sendTime.compareTo(sendTime));
-            System.out.println(ms.sendTime.getTime());
+            System.out.println(ms.getSendTime().compareTo(sendTime));
+            System.out.println(ms.getSendTime().getTime());
             System.out.println(sendTime.getTime());
-            if (ms.sendTime.compareTo(sendTime) <= 0){
+            if (ms.getSendTime().compareTo(sendTime) <= 0){
                 return solver.GetMesQueue().GetMessage();
             }
             return null;
@@ -58,12 +58,11 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
     public void onUpdateReceived(Update update){
         TelegramBot.Message ms = rndMess();
         if (ms != null){
-            if (ms.chatId == 0) {
-                //System.out.println(base.GetRandomUser());
-                ms.chatId = base.GetRandomUser().GetUserID();
+            if (ms.getChatId() == 0 || ms.getChatId() == -1) {
+                ms.setChatId(base.GetRandomUser().GetUserID());
             }
-            System.out.println(ms.chatId);
-            sendMsg(ms.chatId, "message from unknown user: \n" + ms.text);
+            System.out.println(ms.getChatId());
+            sendMsg(ms.getChatId(), "message from unknown user: \n" + ms.getMessageText());
         }
         Message message = update.getMessage();
         if (message != null && message.hasText()){
