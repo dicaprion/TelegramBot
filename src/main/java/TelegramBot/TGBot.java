@@ -63,7 +63,7 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
                 ms.chatId = base.GetRandomUser().GetUserID();
             }
             System.out.println(ms.chatId);
-            sendMsg(ms.chatId, "message from unknown user \n" + ms.text);
+            sendMsg(ms.chatId, "message from unknown user: \n" + ms.text);
         }
         Message message = update.getMessage();
         if (message != null && message.hasText()){
