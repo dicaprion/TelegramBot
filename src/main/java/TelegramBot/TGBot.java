@@ -77,7 +77,7 @@ public class TGBot extends TelegramLongPollingBot implements Runnable {
 
     private void sendMsg(int chatId, String text) {
         SendMessage sendMessage = new SendMessage();
-        sendMessage.enableMarkdown(true);
+        sendMessage.enableMarkdown(false);
         sendMessage.setChatId(String.valueOf(chatId));
         sendMessage.setText(text);
 

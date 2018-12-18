@@ -20,7 +20,7 @@ public class SimpleMessageQueue implements RandomMessage {
     }
 
     @Override
-    public void AddMessage(Message message) {
+    public synchronized void AddMessage(Message message) {
         this.queue.offerLast(message);
     }
 }
